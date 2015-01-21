@@ -1,0 +1,11 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Wed Jan 21 14:50:01 2015 -- reformated by prettylst.pl v1.51 (build 25836)
+SOURCELONG:Reign of Winter, Part 2: The Shackled Hut	SOURCESHORT:AP68	SOURCEWEB:http://paizo.com/products/btpy8w7d/discuss?Pathfinder-Adventure-Path-67-The-Snows-of-Summer	SOURCEDATE:2013-03
+# ORIGINAL ENTRY: Stefan Radermacher
+
+###Block: Poisons
+# Equipment Name			Output Name		Type					Cost		Weight	Source Page		Special Property
+Poison (Ice Troll Phlegm)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:150	WT:0		SOURCEPAGE:p.61	SPROP:Injury; Fort DC 14; Freq 1 round (4); Effect 1d2 Dex dmg and targt's skin turns blue until Dex dmg is completely healed; Cure 1 save
+
+#
+# End
+#
