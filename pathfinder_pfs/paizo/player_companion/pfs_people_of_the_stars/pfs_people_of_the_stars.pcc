@@ -1,13 +1,12 @@
-CAMPAIGN:People of the Stars
-KEY:People of the Stars
-GAMEMODE:Pathfinder
-TYPE:Paizo Publishing.Pathfinder Player Companion
+CAMPAIGN:People of the Stars (PFS)
+#GAMEMODE:Pathfinder
+TYPE:Paizo Publishing PFS.Pathfinder Player Companion
 RANK:3
 STATUS:ALPHA
 GENRE:Fantasy
 BOOKTYPE:Supplement
 SETTING:Pathfinder Campaign Setting
-PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+PRECAMPAIGN:1,INCLUDES=Guide To Pathfinder Society Organized Play
 PRECAMPAIGN:1,INCLUDES=Inner Sea World Guide
 PUBNAMELONG:Paizo Inc.
 PUBNAMESHORT:Paizo
@@ -34,30 +33,32 @@ COPYRIGHT:PCGen dataset conversion for "Pathfinder Companion: People of the Star
 # Do not remove the EXTRAFILE comment.
 #EXTRAFILE:OGL.txt
 
-# Data Files
-ABILITY:pots_abilities_class.lst
-ABILITY:pots_abilities_feat.lst
-ABILITY:pots_abilities_race.lst
-ABILITYCATEGORY:pots_abilitycategories.lst
-DEITY:pots_deities.lst
-DOMAIN:pots_domains.lst
-EQUIPMENT:pots_equip.lst
-LANGUAGE:pots_languages.lst
-WEAPONPROF:pots_profs_weapon.lst
-RACE:pots_races.lst
-TEMPLATE:pots_templates.lst
+# Additional Resources
+# Last Updated Friday, January 9, 2015
+#
+# Pathfinder Player Companion: People of the Stars
+# Equipment: all equipment and magic items on page 19, 26-27, and 30-31 are legal for play, except steelbone frame and traveler's translator;
+# Feats: both feats on page 27 are legal for play;
+# Misc.: none of the races are legal for play;
+# Spells: all spells on pages 28-29 are legal for play;
+# Subdomains: both subdomains on page 23 are legal for play;
+# Traits: Lunar Birth, Offspring of the Ascension, Outer Dragon Blood, Skymetal Affinity, Sovyrian Intellectual, and Sun-blessed are legal for play.
+# All languages found in this book are available for a character to learn with the linguistics skill.
 
-# ENTRY DATE: 2015-01
-# LST MONKEY: Andrew Maitland
-# LICENSE MONKEY:
-# RELEASE REVIEW #
-# BETA:
-# RELEASE:
-# Built for PCGen Version: 6.04.01
-# Updated to work with version: -
-# MINVER:6.4
-# MINDEVVER:6.04.1
-# COMMENTS:
+# Data Files
+#ABILITY:pots_abilities.lst
+#ABILITY:pots_abilities_feat.lst
+#ABILITYCATEGORY:pots_abilitycategories.lst
+#EQUIPMENT:pots_equip.lst
+#LANGUAGE:pots_languages.lst
+#WEAPONPROF:pots_profs_weapon.lst
+#RACE:pots_races.lst
+#TEMPLATE:pots_templates.lst
+
+#CLASS:pots_classes.lst
+#EQUIPMOD:pots_equipmods.lst
+#FEAT:pots_feats.lst
+#SPELL:pots_spells.lst
 
 #
 # End
