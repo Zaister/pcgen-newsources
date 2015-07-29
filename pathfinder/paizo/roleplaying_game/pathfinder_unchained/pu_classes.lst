@@ -5,7 +5,7 @@ SOURCELONG:Pathfinder Unchained	SOURCESHORT:PU	SOURCEWEB:http://paizo.com/produc
 # Class Name			Hit Dice	Type			Class Type		Abbreviation	Max Level	Ex Class					Source Page		Ability																				Define			Combat bonus										Save bonus																						Modify VAR				Monster Role	Serves As
 CLASS:Unchained Barbarian	HD:12		TYPE:Base.PC	CLASSTYPE:PC	ABB:UBr		MAXLEVEL:20	EXCLASS:Unchained Ex-Barbarian	SOURCEPAGE:p.8	ABILITY:Internal|AUTOMATIC|Class Skills ~ Unchained Barbarian|!PREABILITY:1,CATEGORY=Archetype,TYPE.BarbarianClassSkills	DEFINE:BarbarianLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:VAR|BarbarianLVL|CL	ROLE:Combat.Skill	SERVESAS:CLASS|Barbarian
 # Class Name			Restricted AL		Prohibited Class
-CLASS:Unchained Barbarian	!PREALIGN:LG,LN,LE	!PRECLASS:1,Barbarian=1,Ex-Barbarian=1
+CLASS:Unchained Barbarian	!PREALIGN:LG,LN,LE	PREMULT:1,[PRECLASS:1,Unchained Barbarian=1],!PRECLASS:1,Barbarian=1,Ex-Barbarian=1
 # Class Name			Skill Pts/Lvl
 CLASS:Unchained Barbarian	STARTSKILLPTS:4
 ###Block:Proficiencies
