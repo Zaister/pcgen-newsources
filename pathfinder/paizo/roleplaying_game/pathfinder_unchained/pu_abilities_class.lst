@@ -160,6 +160,29 @@ CATEGORY=Special Ability|Rage Power ~ World Serpent Spirit.MOD		TYPE:UnchainedRa
 CATEGORY=Special Ability|Rage Power ~ World Serpent Totem.MOD		TYPE:UnchainedRagePower
 CATEGORY=Special Ability|Rage Power ~ World Serpent Totem Unity.MOD	TYPE:UnchainedRagePower
 
+
+###Block: Rogue Abilities ------------------------------------------------------------------------------------------------------------------------
+# Ability Name	Unique Key				Category of Ability		Type													Visible	Define								Description																																																																																																								Ability							Bonus Ability Pool					Bonus to Situation							Bonus to skill						Modify VAR								Source Page
+Sneak Attack	KEY:Rogue ~ Sneak Attack	CATEGORY:Special Ability	TYPE:Internal.RogueClassFeatures.AlchemistClassFeatures				VISIBLE:NO	DEFINE:RogueSneakAttackLVL|0																																																																																																														ABILITY:Special Ability|AUTOMATIC|Sneak Attack																											
+Rogue Talents	KEY:Rogue ~ Rogue Talents	CATEGORY:Special Ability	TYPE:Internal.RogueClassFeatures								VISIBLE:NO	DEFINE:RogueTalentLVL|0																																																																																																																							BONUS:ABILITYPOOL|Rogue Talent|RogueTalentLVL/2
+Trapfinding		KEY:Rogue ~ Trapfinding		CATEGORY:Special Ability	TYPE:RogueClassFeatures.RangerClassFeatures.SpecialQuality.Extraordinary			DEFINE:TrapfindingLVL|0	DEFINE:TrapfindingBonus|0	DESC:You add +%1 to Perception skill checks made to locate traps and to Disable Device skill checks. You can use the Disable Device skill to disarm magical traps.|TrapfindingBonus																																																																																												BONUS:SITUATION|Perception=Trapfinding|TrapfindingBonus	BONUS:SKILL|Disable Device|TrapfindingBonus	BONUS:VAR|TrapfindingBonus|max(TrapfindingLVL/2,1)	SOURCEPAGE:p.68
+Trap Sense		KEY:Rogue ~ Trap Sense		CATEGORY:Special Ability	TYPE:Internal.RogueClassFeatures								VISIBLE:NO	DEFINE:RogueTrapSenseLVL|0																																																																																																														ABILITY:Special Ability|AUTOMATIC|Trap Sense																											BONUS:VAR|TrapSenseBonus|RogueTrapSenseLVL/3
+Master Strike	KEY:Rogue ~ Master Strike	CATEGORY:Special Ability	TYPE:RogueClassFeatures.SpecialAttack.Extraordinary.AttackOption					DEFINE:MasterStrikeDC|0	DEFINE:MasterStrikeLVL|0	DESC:You are incredibly deadly when dealing sneak attack damage. Each time you deal sneak attack damage, you can choose one of the following three effects: the target can be put to sleep for 1d4 hours, paralyzed for 2d6 rounds, or slain. Regardless of the effect chosen, the target receives a Fortitude save to negate the additional effect. The DC of this save is %1. Once a creature has been the target of a master strike, regardless of whether or not the save is made, that creature is immune to your master strike for 24 hours. Creatures that are immune to sneak attack damage are also immune to this ability.|MasterStrikeDC																																			BONUS:VAR|MasterStrikeDC|10+(MasterStrikeLVL/2)+INT	SOURCEPAGE:p.70
+Evasion		KEY:Rogue ~ Evasion		CATEGORY:Special Ability	TYPE:RogueClassFeatures																																																																																																																														ABILITY:Special Ability|AUTOMATIC|Evasion
+###Block: Archetype Support
+# Ability Name			Category of Ability	Define				Ability																																																	Modify VAR
+CATEGORY=Internal|Default.MOD					DEFINE:RogueTalentTaken|0	ABILITY:Internal|AUTOMATIC|Rogue Archetype Support|PREABILITY:1,CATEGORY=Archetype,TYPE.RogueArchetype																																	BONUS:VAR|RogueTalentTaken|count("ABILITIES","CATEGORY=Special Ability","TYPE=RogueTalent")+count("ABILITIES","CATEGORY=Special Ability","TYPE=NinjaTrick")
+# COMMENT: This supports the Tiered System to Bring Back Abilities at the next tier if an Archetype replaced them.
+Rogue Archetype Support		CATEGORY:Internal							ABILITY:Special Ability|AUTOMATIC|Rogue ~ Sneak Attack|PREABILITY:1,CATEGORY=Archetype,TYPE.RogueSneakAttack|PREVARGTEQ:RogueLvl,3	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base|PREABILITY:1,CATEGORY=Archetype,TYPE.RogueUncannyDodge,TYPE.RogueImprovedUncannyDodge|PREVARGTEQ:RogueLvl,8	BONUS:VAR|RogueSneakAttackLVL|-2|PREVARGTEQ:RogueLvl,3|PREABILITY:1,CATEGORY=Archetype,TYPE.RogueSneakAttack	BONUS:VAR|UncannyDodgeLVL|-4|PREVARGTEQ:RogueLvl,8|PREABILITY:1,CATEGORY=Archetype,TYPE.RogueUncannyDodge,TYPE.RogueImprovedUncannyDodge
+
+
+
+
+
+
+
+
+
 ###Block: Common Class Abilities
 # Ability Name	Category of Ability		Type														Visible	Serves As							Define			Description																																																																																Bonus to Situation							Aspects
 Danger Sense	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Defensive.BarbarianClassFeatures.ClassFeatures	VISIBLE:YES	SERVESAS:ABILITY=Special Ability|Trap Sense	DEFINE:TrapSenseBonus|0	DESC:You gain a +%1 bonus on Reflex saves to avoid traps and a +%1 dodge bonus to AC against attacks by traps. In addition, you gain a +%1 bonus on Perception checks to avoid being surprised by a foe. This ability counts as trap sense for any feat or class prerequisite, and can be replaced by any archetype class feature that replaces trap sense. The bonuses gained from this ability stack with those gained from trap sense (if you have trap sense from another class).|TrapSenseBonus	BONUS:SITUATION|Perception=Avoid Surprise|TrapSenseBonus	ASPECT:Ability Benefit|+%1|TrapSenseBonus	ASPECT:SaveBonus|+%1 Reflex to avoid traps|TrapSenseBonus
@@ -167,6 +190,11 @@ Danger Sense	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Defensiv
 ###Block: Class Core Skills ~ Archetype Support
 # Ability Name					Unique Key						Category of Ability	Class Skill
 Unchained Barbarian Core Class Skills	KEY:Class Skills ~ Unchained Barbarian	CATEGORY:Internal		CSKILL:Acrobatics|Climb|TYPE=Craft|Handle Animal|Intimidate|Knowledge (Nature)|Perception|Ride|Survival|Swim
+Unchained Rogue Core Class Skills		KEY:Class Skills ~ Unchained Rogue		CATEGORY:Internal		CSKILL:Acrobatics|Appraise|Bluff|Climb|TYPE=Craft|Diplomacy|Disable Device|Disguise|Escape Artist|Intimidate|Knowledge (Dungeoneering)|Knowledge (Local)|Linguistics|Perception|TYPE=Perform|TYPE=Profession|Sense Motive|Sleight of Hand|Stealth|Swim|Use Magic Device
+
+###Block: Weapon and Armor Proficiencies
+# Ability Name			Unique Key							Category of Ability		Type							Visible		Description																																																																																																																																																	Auto Weapon Prof																												Ability																																																																																																																																																							Bonus Ability Pool
+Weapon and Armor Proficiency	KEY:Weapon and Armor Proficiency ~ Unchained Rogue		CATEGORY:Special Ability	TYPE:RogueClassFeatures.SpecialQuality	VISIBLE:DISPLAY	DESC:Rogues are proficient with all simple weapons, plus the hand crossbow, rapier, sap, short sword, and shortbow. They are proficient with light armor, but not with shields.																																																																																																																					AUTO:WEAPONPROF|Crossbow (Hand)|Rapier|Sap|Shortbow|Sword (Short)																				ABILITY:Internal|AUTOMATIC|Weapon Prof ~ Auto	ABILITY:Internal|AUTOMATIC|Weapon Prof ~ Simple|!PREABILITY:1,CATEGORY=Archetype,TYPE.RogueWeaponProficiencies	ABILITY:Internal|AUTOMATIC|Armor Prof ~ Light|!PREABILITY:1,CATEGORY=Archetype,TYPE.RogueLightArmor,TYPE.RogueArmorProficiencies
 
 #
 # End

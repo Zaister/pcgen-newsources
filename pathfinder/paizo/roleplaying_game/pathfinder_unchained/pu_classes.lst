@@ -35,13 +35,15 @@ CLASS:Unchained Ex-Barbarian	STARTSKILLPTS:4
 7	ABILITY:Barbarian Class Feature|AUTOMATIC|Unchained Barbarian ~ Damage Reduction|!PREABILITY:1,CATEGORY=Archetype,TYPE.BarbarianDamageReduction
 14	ABILITY:Barbarian Class Feature|AUTOMATIC|Unchained Barbarian ~ Indomitable Will|!PREABILITY:1,CATEGORY=Archetype,TYPE.BarbarianIndomitableWill
 
+# Class Name		Prohibited Class
+CLASS:Barbarian.MOD	!PRECLASS:1,Unchained Barbarian=1,Unchained Ex-Barbarian=1
 
-# Class Name	Hit Dice	Type				Class Type		Abbreviation	Max Level	Source Page		Ability																Define		Combat bonus											Save bonus																					Modify VAR			Monster Role
-CLASS:Unchained Rogue		HD:8		TYPE:Base.PC.Rogue	CLASSTYPE:PC	ABB:URg		MAXLEVEL:20	SOURCEPAGE:p.67	ABILITY:Internal|AUTOMATIC|Class Skills ~ Unchained Rogue|!PREABILITY:1,CATEGORY=Archetype,RogueClassSkills	DEFINE:RogueLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:VAR|RogueLVL|CL	ROLE:Skill	SERVESAS:CLASS:Rogue
-# Class Name	Skill Pts/Lvl
-CLASS:Unchained Rogue		STARTSKILLPTS:8
+# Class Name		Hit Dice	Type				Class Type		Abbreviation	Max Level	Source Page		Ability																Define		Combat bonus											Save bonus																					Modify VAR			Monster Role
+CLASS:Unchained Rogue	HD:8		TYPE:Base.PC.Rogue	CLASSTYPE:PC	ABB:URg		MAXLEVEL:20	SOURCEPAGE:p.20	ABILITY:Internal|AUTOMATIC|Class Skills ~ Unchained Rogue|!PREABILITY:1,CATEGORY=Archetype,RogueClassSkills	DEFINE:RogueLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:VAR|RogueLVL|CL	ROLE:Skill
+# Class Name		Skill Pts/Lvl
+CLASS:Unchained Rogue	STARTSKILLPTS:8
 ###Block:Proficiencies
-1	ABILITY:Special Ability|AUTOMATIC|Unchained Rogue ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=Archetype,TYPE.RogueWeaponProficiencies,TYPE.RogueLightArmor,TYPE.RogueArmorProficiencies
+1	ABILITY:Special Ability|AUTOMATIC|Weapon and Armor Proficiency ~ Unchained Rogue|!PREABILITY:1,CATEGORY=Archetype,TYPE.RogueWeaponProficiencies,TYPE.RogueLightArmor,TYPE.RogueArmorProficiencies
 ###Block: Level progression
 1	BONUS:VAR|RogueSneakAttackLVL|CL	BONUS:VAR|TrapfindingLVL|CL
 2	BONUS:VAR|RogueTalentLVL|CL
@@ -59,9 +61,8 @@ CLASS:Unchained Rogue		STARTSKILLPTS:8
 4	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base
 20	ABILITY:Rogue Class Feature|AUTOMATIC|Unchained Rogue ~ Master Strike|!PREABILITY:1,CATEGORY=Archetype,TYPE.RogueMasterStrike
 
-
 # Class Name		Prohibited Class
-CLASS:Barbarian.MOD	!PRECLASS:1,Unchained Barbarian=1,Unchained Ex-Barbarian=1
+CLASS:Rogue.MOD	!PRECLASS:1,Unchained Rogue=1
 
 #
 # End
