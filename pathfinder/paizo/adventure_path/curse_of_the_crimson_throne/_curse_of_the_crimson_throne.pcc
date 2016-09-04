@@ -1,0 +1,53 @@
+# CVS $Revision$ $Author$ -- Wed Jul 23 18:41:10 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+# Anniversary Edition Replacement for the Conversion Set
+CAMPAIGN:Curse of the Crimson Throne Adventure Path
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Curse of the Crimson Throne
+RANK:3
+STATUS:BETA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder|Golarion
+PRECAMPAIGN:4,INCLUDESBOOKTYPE=Core Rules,INCLUDES=Advanced Player's Guide,INCLUDES=Bestiary,INCLUDES=Inner Sea World Guide
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Curse of the Crimson Throne Adventure Path
+SOURCESHORT:CotCT
+SOURCEWEB:http://paizo.com/products/btpy9nme?Pathfinder-Adventure-Path-Curse-of-the-Crimson-Throne
+SOURCEDATE:2016-10
+ISOGL:YES
+
+COVER:rotr_ae.jpeg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/products/btpy9nme?Pathfinder-Adventure-Path-Curse-of-the-Crimson-Throne|Get this publication from Paizo Publishing!
+DESC:A Campaign Fit For a Queen! The kings and queens of Korvosa have long ruled under the shadow of the Curse of the Crimson Throne—an infamous superstition claiming that no monarch of the city of Korvosa shall ever die of old age or produce an heir. Whether or not there is any truth to the legend of the curse, Korvosa's current king is but the latest victim to succumb to this foul legacy. Now, the metropolis teeters on the edge of anarchy, and it falls to a band of new heroes to save Korvosa from the greatest threat it has ever known! This hardcover compilation updates the fan-favorite campaign for use with the Pathfinder Roleplaying Game, including new and revised content and nearly 500 pages packed with mayhem, excitement, and adventure!
+
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc.; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Advanced Bestiary Copyright 2014, Green Ronin Publishing, LLC; Author: Jeff Hersh, Developer: Owen K. C. Stephens.
+COPYRIGHT:The Book of Fiends Copyright 2003, Green Ronin Publishing, LLC; Authors: Aaron Loeb, Erik Mona, Chris Pramas, and Robert J. Schwalb.
+COPYRIGHT:Bunyip from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Dermot Jackson.
+COPYRIGHT:Cave Fisher from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Lawrence Schick.
+COPYRIGHT:Cinder Ghoul from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Erica Balsley.
+COPYRIGHT:Corpse Orgy from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.
+COPYRIGHT:Froghemoth from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Gloomwing from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Nigel Morgan.
+COPYRIGHT:Necrophidius from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Tilbrook.
+COPYRIGHT:Skeleton Warrior from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Tenebrous Worm from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Zombie, Juju from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Pathfinder Adventure Path: Curse of the Crimson Throne Copyright 2016, Paizo Publishing Inc.; Authors: Nicolas Logue, F. Wesley Schneider, Richard Pett, Michael Kortes, Greg A. Vaughan, Tito Leati, and James Jacobs.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder Adventure Path: Curse of the Crimson Throne" Copyright 2016, PCGen Data Team (including, but not limited to Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data Files
+
+#
+# End
+#
