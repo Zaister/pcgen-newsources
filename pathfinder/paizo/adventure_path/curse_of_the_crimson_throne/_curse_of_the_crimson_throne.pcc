@@ -1,6 +1,6 @@
 # CVS $Revision$ $Author$ -- Wed Jul 23 18:41:10 2014 -- reformated by prettylst.pl v1.51 (build 24365)
 # Anniversary Edition Replacement for the Conversion Set
-CAMPAIGN:Curse of the Crimson Throne Adventure Path
+CAMPAIGN:Curse of the Crimson Throne
 GAMEMODE:Pathfinder
 TYPE:Paizo Publishing.Pathfinder Adventure Path.Curse of the Crimson Throne
 RANK:3
@@ -13,13 +13,13 @@ PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
 PUBNAMELONG:Paizo Publishing
 PUBNAMESHORT:Paizo
 PUBNAMEWEB:http://paizo.com
-SOURCELONG:Curse of the Crimson Throne Adventure Path
+SOURCELONG:Curse of the Crimson Throne
 SOURCESHORT:CotCT
 SOURCEWEB:http://paizo.com/products/btpy9nme?Pathfinder-Adventure-Path-Curse-of-the-Crimson-Throne
 SOURCEDATE:2016-10
 ISOGL:YES
 
-COVER:rotr_ae.jpeg
+COVER:curse_of_the_crimson_throne.jpg
 LOGO:@/publisher_logos/Paizo_Publishing.png
 URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
 URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
