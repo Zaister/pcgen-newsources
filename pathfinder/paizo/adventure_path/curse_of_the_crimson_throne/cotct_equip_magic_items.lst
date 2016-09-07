@@ -1,0 +1,29 @@
+# CVS $Revision: $ $Author: $ -- Mon Sep  5 15:04:15 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Curse of the Crimson Throne Adventure Path	SOURCESHORT:CotCT	SOURCEWEB:http://paizo.com/products/btpy9nme?Pathfinder-Adventure-Path-Curse-of-the-Crimson-Throne	SOURCEDATE:2016-10
+# Original Entry by: Stefan Radermacher
+
+# Equipment Name			Type					Cost		Weight	Modifier											Requires Modification?	Source Page		Ability									Spell Res.	Innate Spells																	Combat bonus				Save bonus					Stat bonus						Modify VAR										Special Property
+Crown of Fangs			TYPE:Artifact.Headgear		COST:0	WT:4		EQMOD:IntItemBase.Intelligent Item Alignment (LE).IntItemStatCHA12	MODS:NO			SOURCEPAGE:p.432	ABILITY:Special Ability|AUTOMATIC|Regeneration ~ Serithtial			SPELLS:Magic Item|TIMES=3|CASTERLEVEL=20|Alter Self|Dominate Person,17|Major Image,17|Mirror Image|Mislead,19	BONUS:COMBAT|AC|2|TYPE=Insight	BONUS:SAVE|Reflex|2|TYPE=Insight	BONUS:STAT|CHA,CON|6|TYPE=Enhancement	BONUS:VAR|IntelligentItemEgo|18	BONUS:VAR|RegenerationRate|20	SPROP:wearer is never surprised or flat-footed
+Death's Head Coffer		TYPE:Magic.Wondrous		COST:1000	WT:5																		SOURCEPAGE:p.433
+Everdawn Pool			TYPE:Artifact.Headgear		COST:0	WT:1200																	SOURCEPAGE:p.433
+Mask of the Mantis		TYPE:Magic.Wondrous.Headgear	COST:6000	WT:1																		SOURCEPAGE:p.434																																																														SPROP:3 charges/day (darkvision 60 ft., see invisibility, deathwatch, or +5 competence to perception) for 30 mins
+Plaguebringer's Mask		TYPE:Magic.Wondrous.Headgear	COST:2000	WT:2																		SOURCEPAGE:p.435																																																														SPROP:veils weares alignment, +2 resistance bonus agains nauseating scents and one specific disease
+Ring of Immolation		TYPE:Magic.Ring			COST:12000	WT:0		EQMOD:CHARGED_ITEM_10|CHARGES[10]											SOURCEPAGE:p.435													SPELLS:Magic Item|TIMES=ATWILL|CASTERLEVEL=10|Fire Shield																																								SPROP:As a free action, the wearer can activate the ring to create a fire shield (warm) on himself. Activates automatically if the wearer would take cold damage.
+Ring of Splendid Security	TYPE:Magic.Ring			COST:180000	WT:0																		SOURCEPAGE:p.435											SR:22																					BONUS:COMBAT|AC|5|TYPE=Deflection	BONUS:SAVE|ALL|5|TYPE=Resistance																			SPROP:As a standard action, at will, wearer can alter the appearance of armor, clothing and weaponry
+Serithtial
+Shoanti War Paint (Black)	TYPE:Magic.Potion.Consumable	COST:1800	WT:0																		SOURCEPAGE:p.436
+Shoanti War Paint (Blue)	TYPE:Magic.Potion.Consumable	COST:900	WT:0																		SOURCEPAGE:p.436
+Shoanti War Paint (Green)	TYPE:Magic.Potion.Consumable	COST:900	WT:0																		SOURCEPAGE:p.436
+Shoanti War Paint (Orange)	TYPE:Magic.Potion.Consumable	COST:900	WT:0																		SOURCEPAGE:p.436
+Shoanti War Paint (Red)		TYPE:Magic.Potion.Consumable	COST:900	WT:0																		SOURCEPAGE:p.436
+Shoanti War Paint (Silver)	TYPE:Magic.Potion.Consumable	COST:900	WT:0																		SOURCEPAGE:p.436
+Shoanti War Paint (White)	TYPE:Magic.Potion.Consumable	COST:1800	WT:0																		SOURCEPAGE:p.436
+Shoanti War Paint (Yellow)	TYPE:Magic.Potion.Consumable	COST:900	WT:0																		SOURCEPAGE:p.436
+Soul Jar
+Third Eye
+Ukwar
+Zellara's Harrow Deck
+
+#
+# End
+#

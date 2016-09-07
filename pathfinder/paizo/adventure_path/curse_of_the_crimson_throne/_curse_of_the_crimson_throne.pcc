@@ -8,7 +8,8 @@ STATUS:BETA
 GENRE:Fantasy
 BOOKTYPE:Supplement
 SETTING:Pathfinder|Golarion
-PRECAMPAIGN:4,INCLUDESBOOKTYPE=Core Rules,INCLUDES=Advanced Player's Guide,INCLUDES=Bestiary,INCLUDES=Inner Sea World Guide
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+#PRECAMPAIGN:4,INCLUDESBOOKTYPE=Core Rules,INCLUDES=Advanced Player's Guide,INCLUDES=Bestiary,INCLUDES=Inner Sea World Guide
 PUBNAMELONG:Paizo Publishing
 PUBNAMESHORT:Paizo
 PUBNAMEWEB:http://paizo.com
@@ -47,6 +48,13 @@ COPYRIGHT:PCGen dataset conversion for "Pathfinder Adventure Path: Curse of the 
 #EXTRAFILE:OGL.txt
 
 # Data Files
+ABILITY:cotct_abilities.lst
+#ABILITY:cotct_abilities_race.lst
+ABILITY:cotct_abilities_traits.lst
+ABILITYCATEGORY:cotct_abilitycategories.lst
+EQUIPMENT:cotct_equip_general.lst
+EQUIPMENT:cotct_equip_magic_items.lst
+RACE:cotct_races.lst
 
 #
 # End

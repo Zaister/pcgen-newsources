@@ -1,0 +1,16 @@
+# CVS $Revision: $ $Author: $ -- Sun Sep  4 17:47:06 2016 -- reformated by PCGen PrettyLST v6.06.00
+#SOURCELONG:Curse of the Crimson Throne Adventure Path	SOURCESHORT:CotCT	SOURCEWEB:http://paizo.com/products/btpy9nme?Pathfinder-Adventure-Path-Curse-of-the-Crimson-Throne	SOURCEDATE:2016-10
+# Original Entry by: Stefan Radermacher
+
+###Block: Campaign Traits choices
+# Ability Category				Visible		Editable?		Change Pool?	Category of Object		Type of Object			Display Location
+ABILITYCATEGORY:Betrayed Choice		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:BetrayedChoice		DISPLAYLOCATION:Traits
+ABILITYCATEGORY:Drug Addict Choice		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:DrugAddictChoice		DISPLAYLOCATION:Traits
+ABILITYCATEGORY:Framed Choice			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:FramedChoice			DISPLAYLOCATION:Traits
+ABILITYCATEGORY:Love Lost Choice		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:LoveLostChoice		DISPLAYLOCATION:Traits
+ABILITYCATEGORY:Missing Child Choice	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:MissingChildChoice		DISPLAYLOCATION:Traits
+ABILITYCATEGORY:Unhappy Childhood Choice	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:UnhappyChildhoodChoice	DISPLAYLOCATION:Traits
+
+#
+# End
+#

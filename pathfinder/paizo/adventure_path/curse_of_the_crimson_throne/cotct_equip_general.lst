@@ -1,0 +1,15 @@
+# CVS $Revision: $ $Author: $ -- Mon Sep  5 14:55:56 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Curse of the Crimson Throne Adventure Path	SOURCESHORT:CotCT	SOURCEWEB:http://paizo.com/products/btpy9nme?Pathfinder-Adventure-Path-Curse-of-the-Crimson-Throne	SOURCEDATE:2016-10
+# Original Entry by: Stefan Radermacher
+
+###Block: Alchemicla Substances
+# Equipment Name	Type						Cost		Weight	Source Page
+Smoke Bomb		TYPE:Goods.Alchemical.Consumable	COST:1000	WT:1		SOURCEPAGE:p.432
+
+###Block: Poisons
+# Equipment Name		Output Name		Type					Cost		Weight	Source Page		Special Property
+Poison (Fool's Leprosy)	OUTPUTNAME:[NAME]	TYPE:Goods.Poison.Consumable	COST:10000	WT:0		SOURCEPAGE:p.432	SPROP:Ingested; Fort DC 20; Onset 1 day; Freq 1 day (6); Effect 1d2 Cha dmg and 1d2 Con dmg; Cure 3 consecutive saves
+
+#
+# End
+#
